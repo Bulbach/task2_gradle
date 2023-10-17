@@ -8,4 +8,5 @@
 
 rootProject.name = 'task2_gradle'
 include 'core'
+include 'api'
 
