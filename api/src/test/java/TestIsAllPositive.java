@@ -9,6 +9,10 @@ public class TestIsAllPositive {
     @Test
     public void testIsAllPositiveNumber() {
         assertTrue(Utils.isAllPositiveNumbers("123","1024"));
+    }
+
+    @Test
+    public void testIsAllNotPositiveNumber() {
         assertFalse(Utils.isAllPositiveNumbers("-123","345"));
     }
 }

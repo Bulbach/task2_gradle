@@ -9,6 +9,11 @@ public class StringUtilsTest {
     @Test
     public void testIsPositiveNumber() {
         assertTrue(StringUtils.isPositiveNumber("123"));
+
+    }
+    @Test
+    public void testIsNotPositiveNumber(){
         assertFalse(StringUtils.isPositiveNumber("-123"));
     }
+
 }
