@@ -1,0 +1,17 @@
+jacoco {
+    toolVersion = "0.8.7"
+}
+
+test {
+    finalizedBy jacocoTestReport
+}
+
+task generateReport(type: JacocoReport) {
+    dependsOn = ['test']
+    executionData = files("$buildDir/jacoco/test.exec")
+    sourceSets = project.sourceSets
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+}
