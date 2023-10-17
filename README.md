@@ -14,3 +14,4 @@
 4. В модуле api должен быть class App с методом main. .
 5. Из модуля api в методе main вызвать Utils.isAllPositiveNumbers("12", "79").
 6. Написать один unit test для проверки этого метода boolean isAllPositiveNumbers(String… str)(использовать JUnit 5).
+7. Сделать gradle плагин, который также опубликовать и подключить к проекту, например плагин по формированию отчёта
