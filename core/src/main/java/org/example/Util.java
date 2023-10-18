@@ -1,13 +1,13 @@
 package org.example;
 
 
-import com.verezubov.StringUtils;
+import com.verezubov.StringUtil;
 
-public class Utils {
+public class Util {
 
     public static boolean isAllPositiveNumbers(String... str) {
         for (String item : str) {
-            if (!StringUtils.isPositiveNumber(item)) {
+            if (!StringUtil.isPositiveNumber(item)) {
                 return false;
             }
         }

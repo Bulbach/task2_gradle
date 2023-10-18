@@ -1,4 +1,4 @@
-import org.example.Utils;
+import org.example.Util;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -8,11 +8,11 @@ public class TestIsAllPositive {
 
     @Test
     public void testIsAllPositiveNumber() {
-        assertTrue(Utils.isAllPositiveNumbers("123","1024"));
+        assertTrue(Util.isAllPositiveNumbers("123","1024"));
     }
 
     @Test
     public void testIsAllNotPositiveNumber() {
-        assertFalse(Utils.isAllPositiveNumbers("-123","345"));
+        assertFalse(Util.isAllPositiveNumbers("-123","345"));
     }
 }

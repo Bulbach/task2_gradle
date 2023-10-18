@@ -1,19 +1,19 @@
-import com.verezubov.StringUtils;
+import com.verezubov.StringUtil;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class StringUtilsTest {
+public class StringUtilTest {
 
     @Test
     public void testIsPositiveNumber() {
-        assertTrue(StringUtils.isPositiveNumber("123"));
+        assertTrue(StringUtil.isPositiveNumber("123"));
 
     }
     @Test
     public void testIsNotPositiveNumber(){
-        assertFalse(StringUtils.isPositiveNumber("-123"));
+        assertFalse(StringUtil.isPositiveNumber("-123"));
     }
 
 }

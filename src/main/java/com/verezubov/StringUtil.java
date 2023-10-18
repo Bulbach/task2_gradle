@@ -1,6 +1,6 @@
 package com.verezubov;
 
-public class StringUtils {
+public class StringUtil {
 
     public static boolean isPositiveNumber(String str) {
         try {
